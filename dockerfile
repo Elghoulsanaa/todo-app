@@ -3,7 +3,7 @@ FROM node:12-alpine
 RUN apk add --no-cache git
 
 # Clone the repository
-RUN git clone -q https://github.com/Elghoulsanaa/todo-app/edit/main/dockerfile
+RUN git clone -q https://github.com/Elghoulsanaa/todo-app.git
 
 # Set the working directory to the app directory
 WORKDIR /todo-app
